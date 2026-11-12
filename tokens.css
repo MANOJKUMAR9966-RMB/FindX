@@ -1,0 +1,123 @@
+:root {
+  /* ========================================
+     FINDX — BACKGROUND
+     ======================================== */
+
+  --findx-bg: #05070a;
+  --findx-bg-soft: #080b10;
+  --findx-surface: #0c1017;
+  --findx-surface-raised: #111722;
+
+
+  /* ========================================
+     FINDX — TEXT
+     ======================================== */
+
+  --findx-white: #ffffff;
+
+  /* Main readable text */
+  --findx-text: #f8fafc;
+
+  /* Secondary text — bright and clearly visible */
+  --findx-text-muted: #dbe4f0;
+
+  /* Subtle text — still readable on dark UI */
+  --findx-text-subtle: #c3cedc;
+
+
+  /* ========================================
+     FINDX — BRAND
+     ======================================== */
+
+  --findx-blue: #4f8cff;
+  --findx-blue-bright: #6aa1ff;
+  --findx-blue-deep: #245edb;
+
+  --findx-cyan: #35d6ff;
+
+
+  /* ========================================
+     FINDX — STATUS
+     ======================================== */
+
+  --findx-success: #32d583;
+  --findx-warning: #f5b942;
+  --findx-danger: #ff5c6c;
+
+
+  /* ========================================
+     FINDX — BORDERS
+     ======================================== */
+
+  --findx-border: rgba(255, 255, 255, 0.08);
+  --findx-border-strong: rgba(255, 255, 255, 0.14);
+
+
+  /* ========================================
+     FINDX — GLASS
+     ======================================== */
+
+  --findx-glass: rgba(12, 16, 23, 0.68);
+  --findx-glass-light: rgba(255, 255, 255, 0.045);
+
+
+  /* ========================================
+     FINDX — SHADOWS
+     ======================================== */
+
+  --findx-shadow-sm:
+    0 4px 18px rgba(0, 0, 0, 0.22);
+
+  --findx-shadow-md:
+    0 12px 40px rgba(0, 0, 0, 0.32);
+
+  --findx-shadow-lg:
+    0 24px 80px rgba(0, 0, 0, 0.42);
+
+
+  /* ========================================
+     FINDX — GLOW
+     ======================================== */
+
+  --findx-glow-blue:
+    0 0 40px rgba(79, 140, 255, 0.16);
+
+  --findx-glow-cyan:
+    0 0 50px rgba(53, 214, 255, 0.12);
+
+
+  /* ========================================
+     FINDX — RADIUS
+     ======================================== */
+
+  --findx-radius-sm: 8px;
+  --findx-radius-md: 14px;
+  --findx-radius-lg: 20px;
+  --findx-radius-xl: 28px;
+  --findx-radius-pill: 999px;
+
+
+  /* ========================================
+     FINDX — MOTION
+     ======================================== */
+
+  --findx-ease:
+    cubic-bezier(0.22, 1, 0.36, 1);
+
+  --findx-transition-fast:
+    160ms var(--findx-ease);
+
+  --findx-transition:
+    280ms var(--findx-ease);
+
+  --findx-transition-slow:
+    500ms var(--findx-ease);
+
+
+  /* ========================================
+     FINDX — LAYOUT
+     ======================================== */
+
+  --findx-max-width: 1280px;
+  --findx-page-padding: 24px;
+}

@@ -1,0 +1,284 @@
+/* ============================================================
+   FINDX — FINAL TEXT VISIBILITY SYSTEM
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   FORM LABELS
+   USERNAME / EMAIL
+   PASSWORD
+   WHAT DID YOU LOSE?
+   WHERE DID YOU LAST HAVE IT?
+   ------------------------------------------------------------ */
+
+label,
+label *,
+.form-label,
+.findx-label,
+.findx-form-label {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  font-weight: 700 !important;
+}
+
+
+/* ------------------------------------------------------------
+   IMPORTANT UPPERCASE / TRACKED LABELS
+   ------------------------------------------------------------ */
+
+.text-xs.font-semibold.uppercase,
+.text-sm.font-semibold.uppercase,
+.font-semibold.uppercase,
+.uppercase.tracking-widest,
+.uppercase.tracking-wide,
+.uppercase.tracking-\[0\.2em\],
+.uppercase.tracking-\[0\.18em\],
+.uppercase.tracking-\[0\.15em\] {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  font-weight: 700 !important;
+}
+
+
+/* ------------------------------------------------------------
+   NORMAL SECONDARY TEXT
+   Keep readable, but don't force it to pure white.
+   ------------------------------------------------------------ */
+
+.text-slate-700 {
+  color: #dbe4f0 !important;
+  opacity: 1 !important;
+}
+
+.text-slate-600 {
+  color: #cbd5e1 !important;
+  opacity: 1 !important;
+}
+
+.text-slate-500 {
+  color: #cbd5e1 !important;
+  opacity: 1 !important;
+}
+
+.text-slate-400 {
+  color: #cbd5e1 !important;
+  opacity: 1 !important;
+}
+
+.text-slate-300 {
+  color: #e2e8f0 !important;
+  opacity: 1 !important;
+}
+
+.text-slate-200 {
+  color: #f1f5f9 !important;
+  opacity: 1 !important;
+}
+
+
+/* ------------------------------------------------------------
+   INPUT / TEXTAREA / SELECT
+   User-entered text = PURE WHITE
+   ------------------------------------------------------------ */
+
+input,
+textarea,
+select {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  caret-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+
+/* ------------------------------------------------------------
+   DARK INPUT BOXES
+   ------------------------------------------------------------ */
+
+input,
+textarea,
+select,
+.findx-input {
+  background: #080f1e !important;
+}
+
+
+/* ------------------------------------------------------------
+   PLACEHOLDER / EXAMPLE TEXT
+   LIGHT GRAY — NOT PURE WHITE
+   ------------------------------------------------------------ */
+
+input::placeholder,
+textarea::placeholder,
+.findx-input::placeholder {
+  color: #9fb0c5 !important;
+  -webkit-text-fill-color: #9fb0c5 !important;
+  opacity: 1 !important;
+  font-weight: 500 !important;
+}
+
+
+/* ------------------------------------------------------------
+   WEBKIT PLACEHOLDER
+   ------------------------------------------------------------ */
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #9fb0c5 !important;
+  -webkit-text-fill-color: #9fb0c5 !important;
+  opacity: 1 !important;
+}
+
+
+/* ------------------------------------------------------------
+   FIREFOX PLACEHOLDER
+   ------------------------------------------------------------ */
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #9fb0c5 !important;
+  opacity: 1 !important;
+}
+
+
+/* ------------------------------------------------------------
+   TAILWIND PLACEHOLDER CLASSES
+   ------------------------------------------------------------ */
+
+.placeholder\:text-slate-700::placeholder,
+.placeholder\:text-slate-600::placeholder,
+.placeholder\:text-slate-500::placeholder,
+.placeholder\:text-slate-400::placeholder,
+.placeholder\:text-slate-300::placeholder,
+.placeholder\:text-gray-700::placeholder,
+.placeholder\:text-gray-600::placeholder,
+.placeholder\:text-gray-500::placeholder,
+.placeholder\:text-gray-400::placeholder {
+  color: #9fb0c5 !important;
+  -webkit-text-fill-color: #9fb0c5 !important;
+  opacity: 1 !important;
+}
+
+
+/* ------------------------------------------------------------
+   FINDX INPUT
+   ------------------------------------------------------------ */
+
+.findx-input,
+.findx-input input,
+.findx-input textarea,
+.findx-input select {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  opacity: 1 !important;
+  background: #080f1e !important;
+}
+
+
+/* ------------------------------------------------------------
+   FOCUS
+   ------------------------------------------------------------ */
+
+input:focus,
+textarea:focus,
+select:focus,
+.findx-input:focus {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background: #0c1527 !important;
+}
+
+
+/* ------------------------------------------------------------
+   AUTOFILL
+   Prevent LOGIN email/password boxes from turning white
+   ------------------------------------------------------------ */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  background-color: #080f1e !important;
+
+  -webkit-box-shadow:
+    0 0 0 1000px #080f1e inset !important;
+
+  box-shadow:
+    0 0 0 1000px #080f1e inset !important;
+
+  -webkit-text-fill-color: #ffffff !important;
+
+  caret-color: #ffffff !important;
+
+  transition:
+    background-color 9999s ease-in-out 0s !important;
+}
+
+
+/* ------------------------------------------------------------
+   INPUT ICONS
+   ------------------------------------------------------------ */
+
+input + svg,
+input ~ svg,
+textarea + svg,
+textarea ~ svg {
+  color: #93c5fd !important;
+  opacity: 1 !important;
+}
+
+
+/* ------------------------------------------------------------
+   IMPORTANT TEXT INSIDE CARDS
+   ------------------------------------------------------------ */
+
+.findx-glass p,
+.findx-card p {
+  color: #dbe4f0 !important;
+  opacity: 1 !important;
+}
+
+
+/* ------------------------------------------------------------
+   STRONG TEXT
+   ------------------------------------------------------------ */
+
+strong,
+b {
+  color: #ffffff !important;
+}
+
+
+/* ------------------------------------------------------------
+   CHECKBOX LABELS
+   ------------------------------------------------------------ */
+
+input[type="checkbox"] + span,
+input[type="checkbox"] ~ span,
+input[type="checkbox"] + label,
+input[type="checkbox"] ~ label {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+
+/* ------------------------------------------------------------
+   LINKS
+   ------------------------------------------------------------ */
+
+a {
+  opacity: 1 !important;
+}
+
+
+/* ------------------------------------------------------------
+   SELECTION
+   ------------------------------------------------------------ */
+
+::selection {
+  background: #2563eb;
+  color: #ffffff;
+}
